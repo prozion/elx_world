@@ -1,0 +1,64 @@
+интерфейсы
+	I2C
+	SPI
+	UART
+	USB
+компании
+	Cadence
+микроконтроллеры
+	ATTiny
+	STM8
+	микропроцессоры
+		ARM
+модули
+	PWM_Servo
+платформы
+	Adafruit_Trinket
+	Arduino_Uno
+	Arduino_Yun
+	BeagleBone
+	ESP8266
+	Intel_Edison
+	NodeMCU
+	Omega2
+	Photon
+	Raspberry_Pi
+программное_обеспечение
+	Arduino_Create
+	Autodesk_Circuits
+	BSch3V
+	DesignSpark_PCB
+	EasyEDA
+	Esplorer
+	ExpressPCB
+	Fritzing
+	GEDA
+	KiCad
+	Onion_Cloud
+	Orcad
+	Osmond_PCB
+	PCBWeb
+	PSpice
+	TinyCAD
+	ZenitPCB
+программные_библиотеки
+	SystemC
+специфичные_термины
+	АЦП
+	Мейкерспейс
+	Мейкертон
+	Осциллограф
+	Программатор
+	Хакерспейс
+	Хакспейс
+	Широтно_импульсная_модуляция
+	ЦАП
+	BIOS
+	DIY rem:"только в паре с другими терминами"
+	EEPROM
+языки_программирования
+	Embedded_Lua
+	языки_описания
+		OpenVera
+		Verilog
+		VHDL
