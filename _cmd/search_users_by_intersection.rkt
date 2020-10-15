@@ -9,14 +9,8 @@
 (require "../_lib/functions.rkt")
 (require "../_lib/globals.rkt")
 
-(persistent h-extended-vk-groups)
+(persistent extended-vk-groups)
 (persistent h-uid-score)
-
-; (h-extended-vk-groups (add-uids-to-tabtree
-;                         #:max-users-limit MAX_MEMBERS_IN_SCANNED_GROUPS
-;                         (cond
-;                           ((hash-empty? (h-extended-vk-groups)) (parse-tab-tree "../knowledge/russia_elx.tree"))
-;                           (else (h-extended-vk-groups)))))
 
 (define-catch (in-what-groups-is-this-uid items uid #:pick-group-name? (pick-group-name? #f))
   (for/fold
@@ -38,14 +32,17 @@
                 (pushr res vk-id))))
         (else res)))))
 
-(let* ((extended-vk-groups (h-extended-vk-groups))
-      (part-groups (filter
-                      (λ (x) ($ uids x))
-                      (get-leaves ($4 электроника extended-vk-groups))))
+(let* (
+      (groups-with-uids (filter
+                          (λ (x) ($ uids x))
+                          (extended-vk-groups)))
+      ; (_ (--- (length groups-with-uids)))
+      ; (_ (--- (format "Total local uids: ~a" (length (hash-keys (h-uid-score))))))
       (locals-uids (hash-keys (hash-filter (λ (k v) (>= v MIN_MEMBER)) (h-uid-score))))
+      (_ (--- (format "Total filtered local uids: ~a" (length locals-uids))))
       (locals-in-topic-groups (for/fold
                                       ((res empty))
-                                      ((item part-groups))
+                                      ((item groups-with-uids))
                                       (append res (intersect ($ uids item) locals-uids))))
       (locals-in-topic-groups-score (frequency-hash locals-in-topic-groups))
       (uid-score (h-uid-score))
@@ -55,12 +52,12 @@
                                           k
                                           (hash 'url (gid->url k)
                                                 'gids (implode
-                                                        (in-what-groups-is-this-uid part-groups k #:pick-group-name? #t)
+                                                        (in-what-groups-is-this-uid groups-with-uids k #:pick-group-name? #t)
                                                         ", ")
                                                 'local_count (hash-ref uid-score k 0)
-                                                'count v)))
+                                                'elx_count v)))
                                       locals-in-topic-groups-score))
       )
-  (write-csv-file #:delimeter "\t" '(url gids local_count count) locals-in-topic-groups-score (str "../" RESULT_DIR "/locals_in_elx_groups.csv"))
+  (write-csv-file #:delimeter "\t" '(url gids local_count elx_count) locals-in-topic-groups-score (str "../" RESULT_DIR "/locals_in_fp_groups.csv"))
   #t
   )

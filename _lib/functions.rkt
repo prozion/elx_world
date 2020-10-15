@@ -510,39 +510,41 @@
     (hash-ref* h-alias-id alias)))
 
 (define-catch (add-uids-to-tabtree
-                    tabtree
+                    tabtree-items
                     #:ignore-i? (ignore-i? #t)
                     #:max-users-limit (max-users-limit #f))
   (persistent h-alias-id)
-  (extend-hashtree
-    tabtree
-    (λ (item)
-        (let* ((alias ($ vk item))
-              (is-group (group? item))
-              (is-user (user? item))
-              (id (and alias ($ (h-alias-id) alias)))
-              (id (cond
-                    ((and alias is-group (not id))
-                      (get-gid alias #:delay 0.1 #:display? (format " [get-gid ~a] " alias)))
-                    ((and alias is-group (not id))
-                      (get-uid alias #:delay 0.1 #:display? (format " [get-uid ~a] " alias)))
-                    (else
-                      id))))
-          (cond
-            ; skip if no vk url in item
-            ((not alias) item)
-            ; if forgot to record od of the group/user
-            ((and ($ uids item) (not ($ vk-id item)))
-              (hash-union item (hash 'vk-id id)))
-            ; skip if already scanned for uids
-            (($ uids item) item)
-            ; skip if i:<t>
-            ((and ignore-i? ($* i item)) item)
-            ; skip if number of users is more than max-users-limit
-            ((and max-users-limit (> (vk-members-number item) max-users-limit)) item)
-            (is-group
-              (hash-union item (hash 'vk-id id 'uids (get-group-users id #:delay 0.1 #:display? (format " [get-gid-uids ~a] " id)))))
-            (is-user
-              (hash-union item (hash 'vk-id id 'uids (get-friends-of-user id #:delay 0.1 #:display? (format " [get-uid-uids ~a] " id)))))
-            ; if something different, also skip
-            (else item))))))
+  (for/fold
+    ((res empty))
+    ((item tabtree-items))
+    (pushr
+      res
+      (let* ((alias ($ vk item))
+            (is-group (group? item))
+            (is-user (user? item))
+            (vk-id (and alias ($ (h-alias-id) alias)))
+            (vk-id (cond
+                  ((and alias is-group (not vk-id))
+                    (get-gid alias #:delay 0.1 #:display? (format "~n[get-gid ~a]~n" alias)))
+                  ((and alias is-user (not vk-id))
+                    (get-uid alias #:delay 0.1 #:display? (format "~n[get-uid ~a]~n" alias)))
+                  (else
+                    vk-id))))
+        (cond
+          ; skip if no vk url in item
+          ((not alias) item)
+          ; if forgot to record id of the group/user
+          ((and ($ uids item) (not ($ vk-id item)))
+            (hash-union item (hash 'vk-id vk-id)))
+          ; skip if already scanned for uids
+          (($ uids item) item)
+          ; skip if i:<t>
+          ((and ignore-i? ($* i item)) item)
+          ; skip if number of users is more than max-users-limit
+          ((and max-users-limit (> (vk-members-number item) max-users-limit)) item)
+          (is-group
+            (hash-union item (hash 'vk-id vk-id 'uids (get-group-users vk-id #:delay 0.1 #:display? (format " [get-gid-uids ~a] " vk-id)))))
+          (is-user
+            (hash-union item (hash 'vk-id vk-id 'uids (get-friends-of-user vk-id #:delay 0.1 #:display? (format " [get-uid-uids ~a] " vk-id)))))
+          ; if something different, also skip
+          (else item))))))

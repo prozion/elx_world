@@ -3,6 +3,7 @@
 	SPI
 	UART
 	USB
+	1-Wire
 компании
 	Cadence
 микроконтроллеры
@@ -24,6 +25,7 @@
 	Photon
 	Raspberry_Pi
 программное_обеспечение
+	Компас_3D
 	Arduino_Create
 	Autodesk_Circuits
 	BSch3V
@@ -34,28 +36,36 @@
 	Fritzing
 	GEDA
 	KiCad
+	Microwind
 	Onion_Cloud
 	Orcad
 	Osmond_PCB
 	PCBWeb
 	PSpice
+	SolidWorks
+	Solid_Edge
 	TinyCAD
+	T_Flex_CAD
 	ZenitPCB
 программные_библиотеки
 	SystemC
 специфичные_термины
 	АЦП
 	Мейкерспейс
-	Мейкертон
+	Мейкертон syn:Мейкатон
 	Осциллограф
 	Программатор
+	Умный_дом
 	Хакерспейс
 	Хакспейс
 	Широтно_импульсная_модуляция
 	ЦАП
-	BIOS
 	DIY rem:"только в паре с другими терминами"
 	EEPROM
+	Embedded_Systems
+	IoT
+	Makerfaire
+	RTOS
 языки_программирования
 	Embedded_Lua
 	языки_описания

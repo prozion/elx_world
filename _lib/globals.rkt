@@ -12,7 +12,7 @@
 (define MIN_SYMBOLS 100)
 
 (define DEFAULT_PLACE #f)
-(define CURRENT_LOCATION "ra_elx")
+(define CURRENT_LOCATION "ra_fp")
 
 ; how frequently to write to the file, when changing persistence
 (define FILE_WRITE_FREQUENCY 500)
@@ -23,5 +23,5 @@
 (define RESULT_DIR "results")
 (define TREE_FILE "ra_it.tree")
 
-(define MIN_MEMBER 3)
+(define MIN_MEMBER 4)
 (define MAX_MEMBERS_IN_SCANNED_GROUPS 100000)

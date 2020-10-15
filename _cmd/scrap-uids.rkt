@@ -32,12 +32,12 @@
                               (($* i item) (values res-alias-id res-id-uids))
                               ((> (vk-members-number item) MAX_MEMBERS_IN_SCANNED_GROUPS) (values res-alias-id res-id-uids))
                               ((user? item)
-                                    (let* ((alias-id (get-user-id alias #:delay 0.1 #:display? (format " [get-uid ~a] " alias))))
+                                    (let* ((alias-id (get-user-id alias #:delay 0.1 #:display? (format "~n[get-uid ~a]~n" alias))))
                                       (values
                                         (hash-set res-alias-id alias alias-id)
                                         (hash-set res-id-uids alias-id (get-friends-of-user alias-id #:delay 0.1 #:display? (format " [get-friend-uids ~a] " alias-id))))))
                               ((group? item)
-                                    (let* ((alias-id (get-gid alias #:delay 0.1 #:display? (format " [get-gid ~a] " alias))))
+                                    (let* ((alias-id (get-gid alias #:delay 0.1 #:display? (format "~n[get-gid ~a]~n" alias))))
                                       (values
                                         (hash-set res-alias-id alias alias-id)
                                         (hash-set res-id-uids alias-id (get-group-users alias-id #:delay 0.1 #:display? (format " [get-participant-uids ~a] " alias-id))))))
@@ -95,7 +95,14 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
   ; (--- "for each group get its id and a list of user ids")
-  (get-h-id-uids (h-id-uids) (list "../knowledge/ra_it.tree" "../knowledge/ra_elx.tree" "../knowledge/ra_edu.tree"))
+  (get-h-id-uids
+    (h-id-uids)
+    (list
+      "../knowledge/ra_it.tree"
+      "../knowledge/ra_elx.tree"
+      "../knowledge/ra_edu.tree"
+      "../knowledge/ra_general.tree"
+      ))
   ;
   (--- "getting a score of users")
   (get-score (h-id-uids))

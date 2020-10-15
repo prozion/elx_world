@@ -1,98 +1,473 @@
 электроника keys-order:place,vk,u,p,f sort-f:`(λ (a b) (cyr< a b))`
+	Амперка vk:vk.com/amperkaru u:14643
 	Аццких_радиотехников vk:vk.com/club_adckix_radiotexnikov u:11986
+	Библиотека_по_электронике_и_автоматике vk:vk.com/club37613802 u:2852
+	Блог_по_электронике_All_Kind_Of_Electronics vk:vk.com/akoe_ru u:2743
+	Ванильная_схемотехника vk:vk.com/shematica u:2272
 	Инженеры_электронщики vk:vk.com/electro_engineer u:2685
+	Интеллектроника vk:vk.com/intellectronix u:245
+	Искусство_схемотехники_Хоровиц_Хилл vk:vk.com/shemotech u:903
 	Клуб_Цифровиков_ЧЭМК vk:vk.com/digital_club21 u:31
 	Паяльник vk:vk.com/cxem_net_payalnik u:136573
+	Практическая_электроника vk:vk.com/ruselectronic u:27947
+	Программаторы_и_микросхемы vk:vk.com/mcu_help u:79
+	Радиодело vk:vk.com/radiodel u:363
+	Радиодетали_радиокомпоненты_электронные vk:vk.com/club1399347 u:1894
 	Радиолоцман vk:vk.com/rlocman u:2134
+	Радиосхемы vk:vk.com/radioskat u:4312
+	Радиоэлектроника vk:vk.com/club23057357 u:6638
+	Радиоэлектроника_схемы_и_статьи_радиолюбителям vk:vk.com/radiostorage_net_shemu u:6877
+	Разработка_электронных_устройств_Схемотехника vk:vk.com/electronika_na_zakaz_razrabotka u:2324
+	СВЧушки vk:vk.com/svchushki u:412
+	Типичный_радиорынок vk:vk.com/typical_radiorinok u:302
+	Типичный_HVшник vk:vk.com/high_voltage_community u:1438
+	Цифровая_подстанция vk:vk.com/digitalsubstation u:2331
+	Электроник vk:vk.com/electronicmate u:28189
 	Электроника_как_хобби vk:vk.com/hobbyelectronics u:5371
+	Электроника_шаг_за_шагом vk:vk.com/mp16a u:2777
+	Электроника_в_объективе vk:vk.com/electronics_in_camera u:6336
+	Электроника_и_схемотехника vk:vk.com/club126726042 u:1093
+	Энерджиквантум vk:vk.com/energykvantum11 u:240
 	Big_Asu vk:vk.com/public34039206 u:20681
+	EasyElectronics vk:vk.com/easy_electronics u:11164
+	Electrical_and_Electronics_Engineering vk:vk.com/arduinobc u:280
+	Electrical_Computer_Engineering vk:vk.com/elcomp u:1096
+	Electronic_Cloud vk:vk.com/club9450589 u:100
+	Fastwel vk:vk.com/fastwel u:791
+	Mikronika_Амперка_Arduino_DIY_Электроника vk:vk.com/mikronikanet u:1272
+	Radiotech vk:vk.com/radiotechkz u:1022
+	SOM_и_SOC_Arduino_RaspberryPi_STM32_и_другие vk:vk.com/rasduino u:2320
+	STM32_и_электроника vk:vk.com/catethysis_ru u:2516
+	TechnoTopus_электроника_техника_Arduino vk:vk.com/technotopus u:15540
+	TDM_Lab vk:vk.com/tdm_lab u:160
+	VL_Systems vk:vk.com/vl_syst u:203
+	аудиотехника
+		Клуб_лампового_звука vk:vk.com/tubesoundclub u:7336
+		DarkAmp_авторская_аудиотехника vk:vk.com/darkamp u:1147
+	блоги_про_электронику
+		ПЛИС_и_электроника vk:vk.com/fpga_cpld u:621
+		Aka_Kasyan vk:vk.com/club79283215 u:21772
+		Valenti_Work vk:vk.com/valenti_work u:150
+	вакуумная_электроника
+		Газоразрядные_лампы_Nixie_Tube vk:vk.com/elnixie u:1289
+	встроенные_системы alt-id:embedded_systems
+		Встраиваемые_системы vk:vk.com/embedded_sys u:1234
+		Embedded_Group_Встраиваемые_системы vk:vk.com/embedded_space u:749
+		Embedded_System_IoT vk:vk.com/embeddedsysiot u:189
+		Embedded_Systems vk:vk.com/embededdevice u:2645
+		Embedded_System_Programming vk:vk.com/public167795235 u:35
+		Embox vk:vk.com/embox u:157
+		C_C++_embedded_systems_в_Грозном vk:vk.com/club89508849 u:409
+	интернет_вещей alt-id:умный_дом kw:bynthytn_dtotq
+		Cloud_IoT_Gerfed vk:vk.com/cloudiotgerfed u:112
+		Greenpl_IoT vk:vk.com/greenpl_iot u:88
+		HackIoT_все_об_интернете_вещей vk:vk.com/hackiot p:163
+		IoT_Академия_Samsung_НГТУ vk:vk.com/iotacademynstu u:224
+		IoT_Hub vk:vk.com/iothubu:97
+		Iot.ru vk:vk.com/newsiot u:6768
+		MGBot.ru vk:vk.com/mgbot.official u:411
+		MySmartHome vk:vk.com/my_smart_home u:142
+		ZRobotics vk:vk.com/zrobotics u:297
+		Народный_Мониторинг_IoT_Cloud vk:vk.com/narodmon u:2706
+	искусcтвенный_интеллект
+		Иерархическая_Темпоральная_Память vk:vk.com/htm.cortical.learning.algorithms u:359
+		AI vk:vk.com/aiclubru u:184
+		AIDEUS_Сильный_Искусственный_Интеллект vk:vk.com/aideus u:866
+	искусство
+		Фигуры_Ебажу vk:vk.com/ebajous_curves u:193
+		Robotique vk:vk.com/robotique u:20685
+	компьютерное_зрение
+		Компьютерное_зрение vk:vk.com/urfucv u:159
+		Компьютерное_зрение_в_робототехнике vk:vk.com/olimp_cvr u:23
+		Компьютерное_зрение_и_роботы vk:vk.com/cvision u:199
+		Computer_Vision_Neural_networks_Deep_Learning vk:vk.com/computer_vision_software u:422
+	коптеры
+		Гоночные_квадрокоптеры vk:vk.com/mrgroza u:4938
+		RC_School_models vk:vk.com/rcschoolmodels u:9542
+	магазины kw:vfufpby
+		Алиэкспресс_для_радиолюбителя vk:vk.com/arduino_sensor u:1014
+		Вольтик vk:vk.com/voltiq u:3081
+		Интернет_магазин_Симферополь vk:vk.com/pahatrop_software u:174
+		Интернет_магазин_Arduinka_Pro vk:vk.com/arduinka.shop u:387
+		Комплектующие_Arduino_ESP8266_STM8_в_Донецке vk:vk.com/arduino_donbass u:1430
+		Компонента_электронные_компоненты vk:vk.com/komponentaru u:1253
+		Мастер_Кит_DIY_электроника vk:vk.com/mastkit u:1811
+		Радиодетали_инструменты_оборудование_из_Китая vk:vk.com/china_radio u:1360
+		Радиолюбители_Товары_из_Китая vk:vk.com/73ali u:37910
+		Радиотехника_AliExpress vk:vk.com/radiotech_new u:27886
+		Радио_Точка vk:vk.com/radiotoch u:3851
+		Ремонтерские_полезности vk:vk.com/public132752585 u:834
+		Роботы_и_гаджеты vk:vk.com/mygeek u:194
+		Технарю_с_AliExpress vk:vk.com/ali_radiotech u:35997
+		Товары_из_Китая_радиолюбителю vk:vk.com/ali_radio u:133773
+		Товары_радиолюбителям_и_программистам vk:vk.com/r_goods u:333
+		Чип_и_Дип vk:vk.com/chipidip u:17080
+		Электроника_товары_для_радиолюбителя vk:vk.com/aliexpressradiodetali u:3914
+		Электронные_компоненты_и_комплектующие vk:vk.com/radiodetals u:3289
+		Электронные_компоненты_amtbm.com vk:vk.com/amtbmec u:2287
+		AliExpress_для_Поделкина vk:vk.com/alipodelkin u:182
+		AliExpress_для_радиолюбителя_и_электрика vk:vk.com/public130562766 u:25226
+		Amperkot.ru vk:vk.com/amperkot u:2558
+		Arduino_дёшево_много_в_Новосибирске vk:vk.com/sduino u:321
+		Arduino_модули_датчики_расширения vk:vk.com/arduino_shop u:276
+		Arduino_shop vk:vk.com/arduinoshop u:252
+		Ardoo.ru vk:vk.com/arduino_raspberry_esp u:1029
+		Electronic_DIY_Geek_Paradise vk:vk.com/electronic_diy_geek_paradise u:189
+		EngineTrade vk:vk.com/club72102671 u:813
+		Паяльник_Staff_радиодетали_Воронеж vk:vk.com/radiodetalivrn u:4757
+		Стабилизаторы_напряжения vk:vk.com/allstab u:263
+		Geekon_Пенза_магазин_электронных_компонентов vk:vk.com/geekon u:1020
+		Make_Robots vk:vk.com/makerobot66 u:3321
+		Quadcopters_for_Sales vk:vk.com/quadcopters_sales u:2919
+		RadioMart.org vk:vk.com/radiomartorg u:2105
+		RCGrafit vk:vk.com/rcgrafit u:2343
+		RoboShop vk:vk.com/roboshop_spb u:1604
+		RobotChip vk:vk.com/robotchip u:62
+		Techno_Brothers vk:vk.com/exclusive_4u_bro u:894
+		Tixer.ru vk:vk.com/clubtixer u:1778
+		YourDuino.ru vk:://vk.com/yourduino u:3380
+	мехатроника
+		Hexapod vk:vk.com/club71705516 u:80
 	микроэлектроника
 		Микроэлектроника vk:vk.com/club3506688 u:2599
-		ПЛИС_FPGA_программируемые_логические_интегральные_схемы vk:vk.com/fpgas u:2072
 		Системы_на_кристалле_SoC vk:vk.com/sys_on_chip u:32
 	мейкерство
+		Инженерный_Журнал vk:vk.com/engineeringmagazine u:39916
+		Конструкторы_для_пайки_ремонта_и_сборки_DIY_KIT vk:vk.com/chip_end_tools u:261
 		Объединение_Олимп vk:vk.com/olimp_union u:3334
+		Самоделки vk:vk.com/club34173420 u:153
+		Самоделкин vk:vk.com/samodelkin_youtube u:2001
+		Самодельные_металлоискатели_N1_в_vk vk:vk.com/metalloiscatel u:12705
 		Сделай_сам vk:vk.com/sdelay_sam_ss u:15677
+		Станки_ЧПУ_своими_руками vk:vk.com/home_made_cnc u:2676
+		Техноманьяки vk:vk.com/clubarducam u:55
+		Технофилы_всех_стран_объединяйтесь vk:vk.com/technofil u:1116
+		Фаблаб_Политех vk:vk.com/fablabpolytech u:7882
 		Фестиваль_Rukami vk:vk.com/rukami p:7756
+		Центр_развития_технического_творчества_Няндома vk:vk.com/krugozor29 u:2243
 		ЦМИТы_и_фаблабы_России vk:vk.com/fablabrus u:834
 		Электроника_и_DIY vk:vk.com/texno_kot_club u:1982
+		Я_инженер vk:vk.com/ya_engener u:172
+		Diyaudio.by vk:/vk.com/diyaudioby u:284
+		Electronic_craft_by_Far_Wolf vk:vk.com/craft_far_wolf u:834
 		мейкерспейсы
 			Пермский_makerspace vk:vk.com/perm_makerspace u:995
 		мейкертоны
 			Мейкертон_3D_принтер vk:vk.com/makertonkazan p:72
+			Проектный_марафон_Makerthon vk:vk.com/makerthon u:461
+		станки_чпу
+			CAD_CAM_Tutorials_Обработка_ЧПУ vk:vk.com/engineerit u:3697
 		хакспейсы
+			Кириши_HackerSpace vk:vk.com/cyberunit u:757
+			Минский_хакерспейс vk:vk.com/hackerspace_minsk u:829
+			Открытый_клуб_технического_творчества_Нижневартовск vk:vk.com/club71815206 u:555
+			Хакспейс_Лиепая vk:vk.com/liedaga_roboti u:25
+			Хакспейс_Новосибирск vk:vk.com/hacknsk u:81
+			Хакспейс_Челябинск vk:vk.com/chelhackspace u:397
+			Хакспейс_MakeltLab_Екатеринбург vk:vk.com/makeitlab u:2177
+			Хакспейс_3DCraft_Йошкар-Ола vk:vk.com/3dcraft_yola u:76
+			ЦМИТ_Минск vk:vk.com/hackspace_minsk u:7160
 			Cadr vk:vk.com/cadrspace u:230
+			DIY_Lab vk:vk.com/diylabkiev u:38
+			Hackerspace_Волгоград vk:vk.com/hackerspace34 u:1448
+			Hackerspace_Зеленоград vk:vk.com/club92287076 u:29
+			Hackerspace_Мурманск vk:vk.com/hackerspace u:170
+			Hackerspace_Самара vk:vk.com/id255788416 f:136
+			HackerSpace_CheSpace vk:vk.com/chespace.hackerspace u:198
+			HackLab_Киев vk:vk.com/hacklab_kiev u:814
 			HackSpace_СПб vk:vk.com/hackspace_spb u:2329
+			KHackerSpace vk:vk.com/khackerspace u:1216
 			Neuron_Hackspace vk:vk.com/neuronspace u:1755
-	микроконтроллеры
+			NSU_Hackspace vk:vk.com/nsu_hackspace u:844
+			Tech_in_Хабаровск vk:vk.com/arduinokhv u:199
+		фаблабы
+			Лаб37 vk:vk.com/laboratory37 u:6107
+			Fablab_Moscow vk:vk.com/fablabmoscow u:735
+			Koslab_Fablab_в_Костроме vk:vk.com/koslab u:171
+		3d_печать 
+			Всё_о_3D_принтерах_и_3D_печати vk:vk.com/3dtoday u:43450
+		makerfaires
+			Кружковое_движение_на_Maker_Faire vk:vk.com/event169556624 p:30
+			Kharkiv_Mini_Maker_Faire vk:vk.com/makerfairekharkiv u:117
+			Maker_Faire_Moscow vk:vk.com/makerfairemoscow u:581
+	микроконтроллеры kw:vbrhjrjynhjkkths
+		Ардуйня vk:vk.com/arduinya u:89
 		Интересные_и_дешевые_микроконтроллеры vk:vk.com/lowcostmcu u:55
 		Клуб_любителей_ATmega8 vk:vk.com/atmega8a u:2012
-		Клуб_любителей_ATtiny13 vk:vk.com/attiny13a u:2505
 		Микроконтроллеры_МК vk:vk.com/microcontrollers u:9205
 		Микроконтроллеры_и_технологии vk:vk.com/radioparty_mcu u:1190
 		Микроконтроллеры_и_электроника_mkprog.ru vk:vk.com/club126370541 u:189
 		Микроконтроллеры_PIC vk:vk.com/risctronix u:114
 		Микроконтроллеры_STM32 vk:vk.com/microtechnics u:1216
-		Микроконтроллер_&_Co vk:vk.com/club2373502 u:290
+		Микроконтроллер_Co vk:vk.com/club2373502 u:290
+		Микроконтроллеры_электроника_схемы_CAVR.ru vk:vk.com/cvavr u:272
 		Отечественные_микроконтроллеры_и_компоненты vk:vk.com/mcuru u:862
 		Программирование_Микроконтроллеров vk:vk.com/club107660120 u:65
 		Программирование_микроконтроллеров_Atmel_AVR vk:vk.com/club23538483 u:1830
 		Программирование_Миландр vk:vk.com/milandr31 u:321
 		Радиолюбитель_Микроконтроллер_Робототехника vk:vk.com/club104763493 u:199
+		РТ_курсы_в_МФТИ vk:vk.com/drec_courses u:778
+		Создание_и_программирование_микроконтроллерных_систем vk:vk.com/microworks u:985 
 		Сообщество_программистов_микроконтроллеров vk:vk.com/mcu_club u:88
 		Фриланс_STM32_микроконтроллеры vk:vk.com/club73105466 u:127
-		Attiny13 vk:vk.com/attiny13 u:709
+		Электронщики_Микроконтроллерщики vk:vk.com/club4232048 u:1086
+		Arduino_STM32_Discovery_Raspberry_PI_Украина vk:vk.com/geekmatic u:4039
 		AVR_ARM_микроконтроллеры vk:vk.com/club2044685 u:1796
+		AVRlab_устройства_на_микроконтроллерах vk:vk.com/avrlabcom u:2641
 		ChipEnable vk:vk.com/chipenable u:660
+		ESP8266 vk:vk.com/club93552252 u:131
+		ESP8266_Сообщество_разработчиков vk:vk.com/esp8266 u:2521
 		MEGA_AVR_Микроконтроллеры_это_просто vk:vk.com/mega_avr u:400
+		MicroPi vk:vk.com/micro_pi u:121
+		STM32_делимся_опытом vk:vk.com/stm32 u:806
+		STM32_примеры_GPIO_EXTI_USART_GCC_USB vk:vk.com/protocols u:322
+		STM32_F4_F429_Discovery vk:vk.com/club51265191 u:3313
 		Vt_tech vk:vk.com/vt_tech u:152
+		микропроцессоры
+			Эльбрус vk:vk.com/elbrusvk u:5465
+	модули
+		OpenAPS vk:vk.com/openaps u:334
+	новости_технологий kw:yjdjcnb
+		РобоВестник vk:vk.com/robovestnic u:161
+		HYFAI_медиа_о_будущем_технологий vk:vk.com/hyfai u:903
+		Arturos_TV_Arduino_Проекты vk:vk.com/arturos_tv u:475
+	носимая_электроника
+		Носимая_электроника_Arduino_RaspberryPi vk:vk.com/d_fillms u:3229
+	оборудование
+		Осциллографы vk:vk.com/oskilloskooppi u:273
+		Профессиональные_осциллографы_Rohde_Schwarz vk:vk.com/oscilloscope u:56
+		Wanhao_Duplicator_i3 vk:vk.com/wanhao_duplicator_i3 u:947
+		USB_осциллографы_Instrustar vk:vk.com/jeer_scope u:158
+		Программатор_PonyProg vk:vk.com/ponyprog u:51
+	печатные_платы
+		Разработка_PCB vk:vk.com/pcb_develope u:2865
+		Схемотехника_и_разводка_печатных_плат vk:vk.com/ecads u:2181
+		Трассировка_печатных_плат vk:vk.com/trassirovka_plat u:82
+		Expert_PCB vk:vk.com/expertpcb u:660
+		KiCad vk:vk.com/kicad u:112
+		PCBWay vk:vk.com/pcbway u:300 
+	платформы
+		Omega2 vk:vk.com/omega2russia u:421
+		arduino kw:фквгштщ
+			Ардуино_и_ЧПУ vk:vk.com/public77606329 u:227
+			Все_об_Ардуино vk:vk.com/arduino_blog u:11474
+			Подключение_периферии_к_Arduino vk:vk.com/arduino_modules_sensors u:151
+			Проекты_Ардуино vk:vk.com/project_helpduino u:4224
+			Робототехника_Arduino_DIY vk:vk.com/diyduino u:76
+			Справочник_по_Arduino_для_Android vk:vk.com/arduino_hb_official u:1681
+			Электроника_Ардуино vk:vk.com/public58753934 u:209
+			Arduino_проекты_и_ЧПУ vk:vk.com/portal_pk u:4428
+			Ардуино_справочник_проекты vk:vk.com/arduino_dll u:2535
+			Arduino_это_просто vk:vk.com/arduino_nodemcu_esp8266 u:7553
+			AlexGyver_Arduino_и_электроника vk:vk.com/diyworkplace u:70169
+			Arduino_Ардуино vk:vk.com/arduinorus u:3068
+			Arduino_Радиолюбитель vk:vk.com/club_arduino u:57396
+			Arduino_forum vk:vk.com/arduino_forum u:24253
+			Arduino_Freeduino_Processing_ESP8266_с_нуля vk:vk.com/freeduino u:732
+			Arduino_Geek vk:vk.com/arduinogeek u:1006
+			Arduino_gShield_makeblock vk:vk.com/public78351382 u:217
+			Arduino_Guru vk:vk.com/public138174394 u:26
+			Arduino_Lab vk:vk.com/arduinolab u:2453
+			Arduino_Ptz vk:vk.com/arduinoptz u:188
+			Arduino_Rzn vk:vk.com/arduino_rzn u:70
+			Arduino_project vk:vk.com/arduino_project u:17377
+			Arduino_ru vk:vk.com/arduino_ru u:20244
+			Arduino_STM32 vk:vk.com/gipel u:916
+			Arduino_Universe vk:vk.com/arduinouniverse u:113
+			ESP8266_Arduino vk:vk.com/public85301516 u:82
+			IArduino_робототехника vk:vk.com/iarduino u:2707
+			LabRazum vk:vk.com/lrazum u:4025
+			RemoteXY_управление_Arduino_со_смартфона vk:vk.com/remotexy u:1018
+			Texno_Sport_Arduino vk:vk.com/texno_sport_arduino u:662
+			Zelectro vk:vk.com/zelectro u:3326
+		attiny
+			Клуб_любителей_ATtiny13 vk:vk.com/attiny13a u:2505
+			Клуб_любителей_ATtiny_2313 vk:vk.com/attiny2313 u:126
+			Attiny13 vk:vk.com/attiny13 u:709
+			TinyZavr vk:vk.com/tinyzavr u:239
+		raspberry_pi
+			Все_о_миникомпьютере_Raspberry_Pi vk:vk.com/raspwiki u:517
+			Raspberry_PI_Москва vk:vk.com/raspberry_moscow u:433
+			Raspberry_Pi_одноплатный_компьютер vk:vk.com/malinapi_com u:5192
+			Raspberry_Pi_Русская_Малина vk:vk.com/pi_raspberry u:162
+			Raspberry_Pi_1 vk:vk.com/raspberrypi_ru u:7314
+			Raspberry_Pi_2 vk:vk.com/raspberrypi4 u:10033
+			Raspberry_PI3_и_Raspberry_PI4 vk:vk.com/raspberry3 u:167
+			Raspberry_Pi_RetroPie_RecalBox vk:vk.com/retropia_xyz u:578
+			Raspberry_Pi_ru_community vk:vk.com/ru_raspberry u:509
+	плисы
+		ПЛИС_FPGA_на_языке_VHDL vk:vk.com/aquarius_vhdl u:37
+		ПЛИС_FPGA_программируемые_логические_интегральные_схемы vk:vk.com/fpgas u:2072
+		FPGA_ПЛИС_VHDL_DSP vk:vk.com/fpga_vhdl u:155
+		Verilog_VHDL_ASIC_FPGA_FreeRTOS_PLA vk:vk.com/quartus2 u:254
+	производители
+		Микрон vk:vk.com/ozmicron u:1299
+		Миландр vk:vk.com/milandrgroup u:742
+		НПП_Родник vk:vk.com/npprodnik u:130
+		ООО_Объем vk:vk.com/volume03 u:314
+		Печатные_платы_ООО_Марафон vk:vk.com/public52666284 u:6
+		Резонит vk:vk.com/rezonit u:599
+		ЦКБ_Дейтон vk:vk.com/cdodeyton u:21
+		David_Circuit_Board vk:vk.com/id366673620 f:40
+		Garage_Laboratory vk:vk.com/garagelaboratory u:3855
+		Inkubs vk:vk.com/inkubs u:128
+		Leap_PCB vk:vk.com/club64003817 u:72
+		Parcel vk:vk.com/parcelse u:989
+		Pride_Tech vk:vk.com/pridfactory u:233
+		Texas_Instruments vk:vk.com/club15356178 u:403
+		胡奥博_胡 vk:vk.com/id532232289 f:75
+		разработчики
+			Fantasylab_разработка_электронных_устройств vk:vk.com/electronika_na_zakaz_razrabotka u:2324
+	промавтоматика
+		Промышленная_автоматика vk:vk.com/arduino_raspberry_esp u:9316
+		ProSoft vk:vk.com/ltd.prosoft u:532
+	протоколы_и_интерфейсы
+		Система_1_Wire_ее_плюсы_и_минусы vk:vk.com/club48987999 u:13
 	радиолюбители
+		КВ_радио vk:vk.com/shortwaveradio u:1186
+		Клуб_лампового_звука vk:vk.com/tubesoundclub u:7329
+		Клуб_радиолюбителей vk:vk.com/club_radiolyubiteley u:136
+		Коллективная_Радиостанция_D1CTT vk:vk.com/club107507020 u:265
+		Любительская_КВ_и_УКВ_радиосвязь_радиоспорт vk:vk.com/myqth u:2187
+		Начинающим_радиолюбителям vk:vk.com/club15168008 u:5744
+		Онлайн_журнал_о_гражданской_радиосвязи vk:vk.com/radiochief u:7835
+		Путь_в_радиоэфир_и_радиотуризм vk:vk.com/radio73 u:761
 		Радиолюбители vk:vk.com/radioamators u:3371
+		Радиолюбитель_1 vk:vk.com/radio_amateurs u:39841
+		Радиолюбитель_2 vk:vk.com/radiolubiteli u:7505
+		Сообщество_радиолюбителей_Сила_Тока vk:vk.com/clubradioomsk u:949
 		Союз_радиолюбителей_России vk:vk.com/soyuzradiolyubiteleyrossii u:2023
 		Типичный_радиолюбитель vk:vk.com/radiolielectronica u:29230
+		Трансивер_ТСВ vk:/vk.com/ssb_tsv u:3249
 		HAMRADIO_радиолюбители_коротковолновики_и_УКВИ vk:vk.com/club703492 u:2556
-	радиоэлектроника
-		Радиоэлектроника vk:vk.com/club23057357 u:6638
-	робототехника
+	радиомоделизм
+		Паркфлаер vk:vk.com/parkflyer_official u:5904
+		Радиоуправляемые_модели_с_Aliexpress vk:vk.com/rc_barahlo u:1460
+		FixFly_радиоуправляемые_модели_и_запчасти vk:vk.com/fixfly u:2025
+		RC74_Радиоуправляемые_модели_и_гироскутеры vk:vk.com/rc74ru u:1467
+		Rc_Barmaleuz vk:vk.com/rcbarmaleuz u:5147
+	ретро_девайсы
+		Отечественная_радиоаппаратура vk:vk.com/ussr_aparatura u:2697
+		ТехноНостальгия vk:vk.com/tehnonostalgie u:3521
+		Цифровая_электроника_СССР_и_СЭВ vk:vk.com/evm_sssr_i_sev u:480
+		Tuberadio vk:vk.com/tuberadio u:3688
+		ZX_Spectrum vk:vk.com/zxspectrum48 u:6094
+	роботизированные_протезы
+		Прототип_бионического_протеза_руки vk:vk.com/artopro u:23
+	робототехника kw:"hj,jnjnt[ybrf","кщищещ","roboto"
+		Автономные_мобильные_роботы vk:vk.com/amr_nsu u:54
+		Битва_робокосилок vk:vk.com/robogazon u:63
+		Гидронавтика vk:vk.com/hydronautics u:561
+		Давайте_делать_роботов_своими_руками vk:vk.com/servodroid_ru u:8554
+		Джон_Генри_Терминатор_Т_800 vk:vk.com/public144284381 u:1036
+		Журнал_Я_Robot vk:vk.com/journal_yarobot u:10
+		Журнал_Robome_ru vk:vk.com/robome u:63
 		Занимательная_робототехника vk:vk.com/edurobots u:11562
 		Искусственный_интеллект_и_робототехника vk:vk.com/club5989853 u:2675
+		Кубок_РТК vk:vk.com/rtccup u:1287
+		Лаборатория_роботов_HomeDron vk:vk.com/homedron u:10250
+		Лаборатория_робототехники_NordRobot vk:vk.com/nordrobot u:613
+		Новости_IT_робототехники_кибернетики vk:vk.com/newshitech u:1068
+		Основы_робототехники vk:vk.com/olimp_ort u:101
+		Первый_закон_о_робототехнике vk:vk.com/robolaw u:832
 		РобоСпорт_в_МФТИ vk:vk.com/robosport u:674
+		Роботех_Мастер vk:vk.com/myrobotics u:4276
+		Робототехника vk:vk.com/club13326741 u:47
+		Робототехника_и_высокие_технологии vk:vk.com/robolive_ru u:1038
+		Робототехника_и_микроконтроллеры vk:vk.com/public97518714 u:3242
+		Робототехника_и_электроника_с_нуля_для_каждого vk:vk.com/club1428490 u:54
 		Робототехника_микроконтроллеры_AVR_Arduino vk:vk.com/robotclub u:17418
+		Роботоша vk:vk.com/robotosha u:308
 		Роботы vk:vk.com/robotpublic u:60964
 		Роботы_Андроиды_Технологии vk:vk.com/myrobot u:3372
+		РобоФест_Беларусь vk:vk.com/event128698329 p:25
+		Сборная_НГУ_по_робототехнике vk:vk.com/nsurobotics u:208
+		Творческая_лаборатория_робототехники vk:vk.com/tlabrobot u:605
+		Технологии_будущего vk:vk.com/3drtclub u:1113
+		Центр_робототехники_Boteon vk:vk.com/boteon u:978
+		Энциклопедия_робототехники vk:vk.com/public81552675 u:613
 		Ялюблюроботов vk:vk.com/like_robots u:3571
+		Я_люблю_роботов vk:vk.com/ivoverobototech u:241
+		Avrora_Robotics vk:vk.com/avrorarobotics u:390
+		Bauman_Robotics vk:vk.com/baumanrobotics u:325
+		Bauman_Robotics_Club vk:vk.com/robot.bmstu u:514
+		BEAM-роботы_как_форма_жизни vk:vk.com/beambot u:871
+		Fun_Robots_Lab vk:vk.com/funrobotslab u:141
+		JA_Robotics_Company vk:vk.com/avr_help u:2760
+		MaxRobots vk:vk.com/maxrobots u:22043
+		Motion_Cup vk:vk.com/motioncupru u:1280
+		Promobot vk:vk.com/promobot u:4704
+		RCML vk:vk.com/rcml.tech u:240
+		Roboмарш vk:vk.com/robomarsh u:67
+		RoboHabr vk:vk.com/servodroid_public u:198
+		Robo4U_Клуб_любителей_Робототехники vk:vk.com/robo4u u:210
+		AMTBM_Robotics vk:vk.com/roboticsp u:9021
+		RoboCraft vk:vk.com/robocraft_ru u:697
+		Robokub_Робототехника_Краснодар vk:vk.com/robokub u:760
+		Robotic vk:vk.com/robotic_club u:462
 		Robotics_Artificial_Intelligence_Camp vk:vk.com/raicamp u:209
+		Robotics_UA vk:vk.com/roboticsua u:2797
+		Robotoved.ru vk:vk.com/robotoved u:1579
+		Robo4all vk:vk.com/robo4all u:647
+		W.E.A.S_Robotics_Public vk:vk.com/weaspublic u:429
+		Zoomer_робототехника_Arduino_в_Новосибирске vk:vk.com/cmitnsk u:796
+		robot_operating_system
+			Robot_Operating_System vk:vk.com/robotoperating u:501
+			ROS_Сообщество vk:vk.com/rosrussia1 u:505
+	сапры
+		Компас_3D vk:vk.com/kompas_home u:58169
+		МИЭТ_ИЭМС_Топология_в_Layouteditor vk:vk.com/club_layouteditor u:43
+		Свободные_САПР vk:vk.com/freesapr u:165
+		Allegro_OrCAD vk:vk.com/allegroorcad u:42
+		Altium_PADS_OrCAD_Allegro_xPedition_HyperLynx vk:vk.com/edasoft u:679
+		Ansys_4_all vk:vk.com/ansys4all u:3999
+		AutoCAD vk:vk.com/club_autocad u:4731
+		Cadprofy vk:vk.com/cadprofy u:428
+		Fritzing vk:vk.com/fritzing u:41
+		NanoCAD vk:vk.com/nanocad u:28523
+		Proteus_проекты vk:vk.com/proteus789 u:826
+		Sapr_Journal vk:vk.com/sapr_journal u:4668
+		Solidworks_и_чертежи vk:vk.com/solidworld u:5568
+		Solid_Edge vk:vk.com/solidedge u:1389
+		T_Flex_PLM vk:vk.com/tflex u:4382
+		EasyEDA_for_Circuit_Simulation_PCB_Design vk:vk.com/easyeda2015 u:93
+	световые_приборы
+		Freestyler_DMX vk:vk.com/freestyler_dmx u:1614
+	системы_реального_времени_RTOS
+		АстроСофт vk:vk.com/club13326741 u:322
+		QNX vk:vk.com/qnx_rtos u:235
 	софт
 		Пользователи_программы_FLProg vk:vk.com/flprogusers u:4854
-	схемотехника
-		Разработка_PCB vk:vk.com/pcb_develope u:2865
-		Разработка_электронных_устройств_Схемотехника vk:vk.com/electronika_na_zakaz_razrabotka u:2324
-		Схемотехника_и_разводка_печатных_плат vk:vk.com/ecads u:2181
-		Свободные_САПР vk:vk.com/freesapr u:165
-		KiCad vk:vk.com/kicad u:112
-	магазины
-		Интернет_магазин_Arduinka_Pro vk:vk.com/arduinka.shop u:387
-		Комплектующие_Arduino_ESP8266_STM8_в_Донецке vk:vk.com/arduino_donbass u:1430
-		Лавка_электронные_компоненты_приборы_EngineTrade vk:vk.com/club72102671 u:812
-		Радиодетали_инструменты_оборудование_из_Китая vk:vk.com/china_radio u:1360
-		Радио_Точка vk:vk.com/radiotoch u:3851
-		Ремонтерские_полезности vk:vk.com/public132752585 u:834
-		Технарю_с_AliExpress vk:vk.com/ali_radiotech u:35997
-		Товары_из_Китая_радиолюбителю vk:vk.com/ali_radio u:133773
-		Geekon_Пенза_магазин_электронных_компонентов vk:vk.com/geekon u:1020
-		RoboShop vk:vk.com/roboshop_spb u:1604
-		Tixer.ru vk:vk.com/clubtixer u:1778
-	интернет_вещей alt-id:умный_дом
-		MySmartHome vk:vk.com/my_smart_home u:142
-		ZRobotics vk:vk.com/zrobotics u:297
+	умный_дом kw:evysq_ljv
+		Дом_Электроника vk:vk.com/domelec u:210
+		Компания_Electrogroup vk:vk.com/electogrupp_smart_house u:1395
+		Простые_решения_для_вашего_дома vk:vk.com/easysol63 u:89
+		Система_умный_дом_Arduino_и_Broadlink vk:vk.com/my_smarthouse u:6746
+		Умный_дом vk:vk.com/umnodominfo u:143
+		Умный_дом_Интеллектуальные_системы_управления vk:vk.com/smarthome u:618
+		Умный_дом_ESP8266_ардуино vk:vk.com/arduinomarket u:1113
+		COOLRF vk:vk.com/coolrf u:4742
+		DIY_Helper vk:vk.com/diy_helper u:174
+		InHomeKit vk:vk.com/club160329949 u:206
+		OpenHAB_и_Arduino vk:vk.com/myremoteru:1836
+		Smarthome_CCTV_IoT vk:vk.com/smarthome_sys u:1120
 	фабы d:"изготовление на заказ по схемам и чертежам"
 		Advanced_Technology vk:vk.com/advanced_technology_76 u:71
-	arduino
-		Ардуино_справочник_проекты vk:vk.com/arduino_dll u:2535
-		Все_об_Ардуино vk:vk.com/arduino_blog u:11474
-		AlexGyver_Arduino_и_электроника vk:vk.com/diyworkplace u:70169
-		Arduino_forum vk:vk.com/arduino_forum u:24253
-		Arduino_ru vk:vk.com/arduino_ru u:20244
-		Arduino_Радиолюбитель vk:vk.com/club_arduino u:57396
-		IArduino_робототехника vk:vk.com/iarduino u:2707
-		LabRazum vk:vk.com/lrazum u:4025
+	хакатоны_и_мейкертоны
+		Мегахакатон_IoT_Russia vk:vk.com/event93882086 p:130
+		Хакатон_IoT_от_Intel_Microsoft vk:vk.com/iot_kazan p:137
+		Smart_City_IoT_Хакатон vk:vk.com/hakathontmn p:354
+	школы_и_кружки_для_детей
+		Детский_технопарк_Кванториум_Москва vk:vk.com/technopark_moscow u:1216
+		Лаборатория_СовТех vk:vk.com/futurelab31 u:387
+		Робототехника_в_Осетии vk:vk.com/fablab_alania u:188
+		Робото_Ардуино_проекто vk:vk.com/15arduino u:386
+	языки_программирования
+		Micropython vk:vk.com/micropython u:158
+	языки_проектирования
+		VHDL_Verilog vk:vk.com/club7827783 u:165
+		Verilog_Python_PL_SQL vk:vk.com/verilog u:21
+		Fourier_analysis_цвета_Verilog vk:vk.com/fourieranalysiscvetaverilog u:247
+	3d_принтеры 
+		RepRap_3d_принтеры vk:vk.com/reprap u:5997
+	
