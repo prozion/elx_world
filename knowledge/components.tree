@@ -1,0 +1,12 @@
+platforms
+	arduino
+		Nano
+		Uno
+	nodemcu
+		NodeMCU
+	nvidia
+		Jetson_Nano url:developer.nvidia.com/embedded/jetson-nano-developer-kit
+microcontrollers
+	esp platform:NodeMCU
+		ESP8266
+		ESP32
