@@ -5,18 +5,14 @@ ra_elx
 	Радиорынок_Ростов_на_Дону vk:vk.com/radiorinok_rnd u:3307
 	Радиоэлектроника_и_самоделки vk:vk.com/elektrofan u:6
 	Ресурсный_центр_робототехники_ДГТУ vk:vk.com/southrobocrew u:777
-	Семинар_Микроконтроллеры_и_Arduino vk:vk.com/mk_arduino_tgn p:10
 	Студенческое_конструкторское_бюро_Кит vk:vk.com/sdbkit u:113
-	Arduino_Ростов vk:vk.com/arduino_rnd u:2039
 	DSTU_RoboSpring vk:vk.com/dsturobotics u:160
 	EduTech_School vk:vk.com/edutech.school u:20
 	Fablab_Ростов vk:vk.com/fablabrostov u:67
+	Fablab_Технократ vk:vk.com/myfablab u:136
 	FabLab_Южный_Федеральный vk:vk.com/fablabrnd u:500
-	Hackspace_РКСИ vk:vk.com/hackspace_rksi u:250
-	Hackspace_Таганрог vk:vk.com/hackspace u:514
-	HackSpace_Open_Days vk:vk.com/hackspace_open_days p:24
 	Hardware_Club_61 vk:vk.com/hw_61 u:85
-	3д_печать_3д_сканирование_в_Ростове_на_Дону vk:vk.com/3d_lab u:740
+	Печать_и_сканирование_3D_в_Ростове_на_Дону vk:vk.com/3d_lab u:740
 	3DPLab vk:vk.com/3dprint_rostov u:1735
 	детские_школы_и_клубы
 		СтартРобот vk:vk.com/startrobotclub u:553
@@ -24,3 +20,13 @@ ra_elx
 		Радиоклуб_61 vk:vk.com/club135222192 u:99
 	события
 		Всероссийский_инженерный_фестиваль vk:vk.com/enginfest u:1114
+	arduino
+		Семинар_Микроконтроллеры_и_Arduino vk:vk.com/mk_arduino_tgn p:10
+		Arduino_day_2020 vk:vk.com/arduinday2020_rostov_on_don u:63
+		Arduino_Ростов vk:vk.com/arduino_rnd u:2039
+	hackspaces
+		Hackspace_РКСИ vk:vk.com/hackspace_rksi u:250
+		Hackspace_Таганрог vk:vk.com/hackspace u:514
+		HackSpace_Open_Days vk:vk.com/hackspace_open_days p:24
+
+
